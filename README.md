@@ -294,12 +294,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GitHub Issues**: Report bugs and request features
 - **Documentation**: Check this README and code comments
 - **Community**: Join our development community
-
-### **Contact Information**
-- **Project Maintainer**: [Your Name]
-- **Email**: [your.email@example.com]
-- **Website**: [https://carlux-showroom.com]
-- **GitHub**: [https://github.com/yourusername]
+  
 
 ## 🙏 Acknowledgments
 
