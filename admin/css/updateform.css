@@ -1,0 +1,136 @@
+*{
+  margin:0; padding:0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+  text-transform: capitalize;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+.logo1 img{
+   height: 100%;
+    width: 100%;
+}
+
+.container{
+   max-width: 1200px;
+   margin:0 auto;
+   /* padding-bottom: 5rem; */
+}
+
+section{
+   padding:2rem;
+}
+
+.heading{
+   text-align: center;
+   font-size: 3.5rem;
+   text-transform: uppercase;
+   color:#333;
+   margin-bottom: 2rem;
+}
+.btn{
+   display: block;
+   width: 20%;
+   text-align: center;
+   background-color: #000;
+   font-size: 1.7rem;
+   color: #fff;
+   padding:1.2rem 3rem;
+   border-radius: 10px;
+   cursor: pointer;
+   margin-top: 1rem;
+   transition: .3s;
+}
+.btn:hover{
+   background-color: #FF4400;
+}
+.checkout-form form{
+   padding:2rem;
+   border-radius: .5rem;
+}
+
+.checkout-form form .flex{
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+}
+
+.checkout-form form .flex .inputBox{
+   flex:1 1 40rem;
+}
+
+.checkout-form form .flex .inputBox span{
+   font-size: 2rem;
+   color:#333;
+}
+
+.checkout-form form .flex .inputBox input{
+   width: 100%;
+   background-color: #fff;
+   font-size: 15px;
+   color:#333;
+   border-radius: .5rem;
+   padding: 10px;
+   text-transform: none;
+   border:.1rem solid #999;
+}
+.checkout-form form .flex .inputBox input:focus, input:hover{
+    outline: none;
+    border:1px solid;
+    border-color: rgba(92, 76, 234, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(168, 131, 255, 0.1);
+}
+.checkout-form form .flex .inputBox select:focus, select:hover{
+    outline: none;
+    border:1px solid;
+    border-color: rgba(92, 76, 234, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(168, 131, 255, 0.1);
+}
+.checkout-form form .flex .inputBox select{
+    width: 100%;
+    background-color: #fff;
+    font-size: 15px;
+    color:#333;
+    border-radius: .5rem;
+    padding: 10px;
+    text-transform: none;
+    border:.1rem solid #999;
+}
+
+.display-order{
+   max-width: 50rem;
+   background-color: #fff;
+   border-radius: .5rem;
+   text-align: center;
+   padding:1.5rem;
+   margin:0 auto;
+   margin-bottom: 2rem;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   border:.1rem solid #999;
+}
+
+.display-order span{
+   display: inline-block;
+   border-radius: .5rem;
+   background-color: #eee;
+   padding:.5rem 1.5rem;
+   font-size: 15px;
+   color:#333;
+   margin:.5rem;
+}
+
+.display-order span.grand-total{
+   width: 100%;
+   background-color: #f84258;
+   color:#fff;
+   padding:1rem;
+   margin-top: 1rem;
+}
