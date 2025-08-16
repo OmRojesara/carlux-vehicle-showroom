@@ -43,7 +43,7 @@ CREATE TABLE `admin_detail` (
 --
 
 INSERT INTO `admin_detail` (`id`, `name`, `email`, `contact`, `username`, `password`, `code`, `status`) VALUES
-(2, 'Admin', 'admin123@gmail.com', '9876543210', 'admin@123', 'admin@123', 0, 'verified');
+(2, 'Admin', 'admin@demo.com', '9876543210', 'admin@123', 'admin@123', 0, 'verified');
 
 -- --------------------------------------------------------
 
@@ -72,7 +72,7 @@ CREATE TABLE `bookings` (
 --
 
 INSERT INTO `bookings` (`id`, `customer_name`, `email`, `contact`, `city`, `state`, `zipcode`, `country`, `carname`, `brand`, `fueltype`, `booking_date`, `status`) VALUES
-(3, 'Om', 'rojesaraom1@gmail.com', '8154948000', 'Botad', 'gujarat', '323232', 'India', 'Rolls-Royce Ghost', '', 'Petrol', '2024-12-28 17:48:46', 'approved');
+(3, 'John Doe', 'john.doe@demo.com', '9876543210', 'Mumbai', 'Maharashtra', '400001', 'India', 'Rolls-Royce Ghost', '', 'Petrol', '2024-12-28 17:48:46', 'approved');
 
 -- --------------------------------------------------------
 
@@ -171,8 +171,8 @@ INSERT INTO `fuel_car` (`id`, `carname`, `brand`, `price`, `engine`, `transmissi
 (109, 'Volvo S90', 'Volvo', 'Rs.68.25 Lakh*', '1969 cc', 'Automatic', '246.58 bhp', 'Petrol', '180 kmph', 5, 'Volvo S90 (2).webp', 'Volvo S90 (1).webp', 'Volvo S90 (3).webp', 'Volvo S90 (4).webp', 'Volvo S90 (5).webp', '2024-03-27'),
 (113, 'BMW X7', 'Bmw', 'Rs.1.27 - 1.30 Cr*', '2993 cc - 2998 cc', 'Automatic', '335.25 - 375.48 bhp', 'Diesel', '11.29 - 14.31 kmpl', 6, 'BMW X7 (5).webp', 'BMW X7 (4).webp', 'BMW X7 (3).webp', 'BMW X7 (2).webp', 'BMW X7 (1).webp', '2024-03-27'),
 (114, 'BMW X1', 'Bmw', 'Rs.49.50 - 52.50 Lakh*', '1499 cc - 1995 cc', 'Automatic', '134.1 - 147.51 bhp', 'Petrol/Diesel', '20.37 kmpl', 5, 'front-view-118.webp', 'exterior-image-164.webp', 'front-left-side-47.webp', 'rear-left-view-121.webp', 'wheel-42.webp', '2024-03-27'),
-(115, '                  BMW XM', 'Bmw', '               Rs.2.60 Cr*', '               4395 cc', '               Automatic', '               643.69 bhp', '               Petro', '               270 kmphgdgdgdsgsgsdd', 5, 'BMW XM (1).webp', 'BMW XM (2).webp', 'BMW XM (3).webp', 'BMW XM (4).webp', 'BMW XM (5).webp', '2024-03-27'),
-(116, 'WegonR', 'Maruti Suzuki', '6,00,000', '50', 'Auto', '1233', 'CNG/Petrol', '20', 5, '7lto5ua_1560265.webp', 'exterior_marutisuzuki-wagon-r_right-side-view_630x420.webp', 'image.webp', 'interior_marutisuzuki-wagon-r_steering-wheel_630x420.webp', 'interior_marutisuzuki-wagon-r_gear-shifter_630x420.webp', '2024-12-28');
+(115, 'BMW XM', 'Bmw', 'Rs.2.60 Cr*', '4395 cc', 'Automatic', '643.69 bhp', 'Petrol', '270 kmph', 5, 'BMW XM (1).webp', 'BMW XM (2).webp', 'BMW XM (3).webp', 'BMW XM (4).webp', 'BMW XM (5).webp', '2024-03-27'),
+(116, 'WagonR', 'Maruti Suzuki', 'Rs.6.00 Lakh*', '1197 cc', 'Automatic', '88 bhp', 'CNG/Petrol', '20 kmpl', 5, '7lto5ua_1560265.webp', 'exterior_marutisuzuki-wagon-r_right-side-view_630x420.webp', 'image.webp', 'interior_marutisuzuki-wagon-r_steering-wheel_630x420.webp', 'interior_marutisuzuki-wagon-r_gear-shifter_630x420.webp', '2024-12-28');
 
 -- --------------------------------------------------------
 
@@ -242,8 +242,8 @@ CREATE TABLE `user_detail` (
 --
 
 INSERT INTO `user_detail` (`id`, `name`, `email`, `contact`, `password`, `code`, `status`, `gender`, `user_photo`, `username`, `city`, `state`, `country`, `pincode`) VALUES
-(77, 'akshit sonani', 'sonaniakshit777@gmail.com', '7778813428', 'akshit@123', 0, 'verified', 'none', 'WhatsApp Image 2024-03-31 at 21.16.07_2a0fec14.jpg', 'none', 'none', 'none', 'none', 'none'),
-(78, 'Om', 'rojesaraom1@gmail.com', '8154948000', '12qw12qw', 336565, 'notverified', 'none', 'profile.png', 'none', 'none', 'none', 'none', 'none');
+(77, 'Demo User', 'demo.user@example.com', '9876543210', 'demo123', 0, 'verified', 'none', 'profile.png', 'none', 'none', 'none', 'none', 'none'),
+(78, 'Test User', 'test.user@example.com', '8765432109', 'test123', 123456, 'notverified', 'none', 'profile.png', 'none', 'none', 'none', 'none', 'none');
 
 -- --------------------------------------------------------
 
